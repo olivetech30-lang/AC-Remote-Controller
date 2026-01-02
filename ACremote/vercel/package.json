@@ -1,0 +1,24 @@
+{
+  "name": "ac-remote-api",
+  "version": "2.0.0",
+  "description": "Universal AC Remote - Vercel Serverless API",
+  "main": "api/power.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "ac",
+    "remote",
+    "esp32",
+    "iot",
+    "universal",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}

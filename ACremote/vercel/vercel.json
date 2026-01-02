@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "ac-remote-api",
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ],
+  "env": {
+    "ESP32_IP": "192.168.18.230"
+  }
+}
